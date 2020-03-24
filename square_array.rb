@@ -1,3 +1,3 @@
 def square_array(array)
-    arry.inject([]){|a,b| a << b**2}
+    array.inject([]){|a,b| a << b**2}
 end
