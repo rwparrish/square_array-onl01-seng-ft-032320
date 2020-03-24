@@ -1,5 +1,4 @@
 def square_array(array)
-    array.each do |num|
-    puts "#{num}**"
+    arry.inject([]){|a,b| a << b**2}
   end
 end
